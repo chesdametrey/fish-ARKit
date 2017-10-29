@@ -7,7 +7,7 @@ Author: Chesdametrey SENG
 This application development is a part of software development project at The University of Mebourne. Using ARKit framework to capture all the featurePoints. Each point associated to a real world coordinate of x, y,z. After we got enough featurepoints to process, all of these feature points will unproject to 2D point vector associated to the screeen and save those 2D point with its 3D point vector to CSV file.
 These allow the user to load back the capture photo with the featurepoint to do remeasurment at anytime. The process behind this has to do with alot of filtering, such as edge filtering, average depth, removeduplicate and some missing coordinate recontruction. Once the filtering is done, the two sliders provide 2D cooridnate that is every time the user move, it will look for the 2D point of the loaded CSV file and map them to get the 3D vector back (SCNVector3) that is used to compute the distance between the two slider 2d coordinate (CGPoint)
 
-## Getting Started
+## Running the project with Xcode 
 
 FIsh ARKit requires iOS 11 and a device with an A9 (or later) processor. Note* ARKit is not availbale in iOS stimulator.
 - CocoaPod 1.2.1 (2017) is used to install third party framework CSV.swift  (yaslab, 2017).
