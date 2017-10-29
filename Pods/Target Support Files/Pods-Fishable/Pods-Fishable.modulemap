@@ -1,0 +1,6 @@
+framework module Pods_Fishable {
+  umbrella header "Pods-Fishable-umbrella.h"
+
+  export *
+  module * { export * }
+}
